@@ -1,6 +1,4 @@
 import requests
 
-print("requests.__version__ == " + requests.__version__)
-
-r = requests.get('http://www.google.com')
-print(r.status_code)
+r = requests.get('https://raw.githubusercontent.com/martinwrudolf/CMPUT-404/main/lab1.py')
+print(r.text)
